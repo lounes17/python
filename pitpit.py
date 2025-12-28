@@ -6,8 +6,8 @@ import socket
 
 # --- CONFIGURATION ---
 # Utilise un domaine que tu contrôles et une adresse autorisée
-SENDER_FAKE = "lounes.abbar@ac-creteil.fr"
-RECIPIENT_REAL = "lounes.abbar@ac-creteil.fr"  # Remplace par une boîte que tu contrôles
+SENDER_FAKE = ""
+RECIPIENT_REAL = ""  # Remplace par une boîte que tu contrôles
 
 def get_mx_record(domain):
     try:
